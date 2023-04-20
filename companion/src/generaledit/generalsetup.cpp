@@ -353,7 +353,7 @@ void GeneralSetupPanel::populateVoiceLangCB()
   //  Note: these align with the radio NOT computer locales - TODO harmonise with ISO and one list!!!
   QString langcode[] = { "en", "da", "nl","fr", "it", "de",
                          "cz", "sk", "es", "pl", "pt", "ru",
-                         "se", "hu", "cn", "jp", NULL};
+                         "se", "hu", "cn", "jp", "he", NULL};
 
   b->clear();
   for (int i=0; strings[i]!=NULL; i++) {

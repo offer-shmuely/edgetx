@@ -112,6 +112,7 @@ class OpenTxFirmware: public Firmware
       addLanguage("ru");
       addLanguage("se");
       addLanguage("sk");
+      addLanguage("he");
     }
 
     virtual Firmware * getFirmwareVariant(const QString & id);
