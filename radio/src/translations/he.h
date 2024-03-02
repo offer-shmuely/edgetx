@@ -41,7 +41,7 @@
 #define TR_USE_PLURAL2  INT_MAX
 
 #define TR_MINUTE_SINGULAR            "דקה"
-#define TR_MINUTE_PLURAL1             "דקות"
+#define TR_MINUTE_PLURAL1             "1111 דקות"
 #define TR_MINUTE_PLURAL2             "דקות"
 
 #define TR_OFFON                       "OFF","ON"
