@@ -526,7 +526,7 @@
 #define TR_EEPROMFORMATTING            "Formatting EEPROM"
 #define TR_STORAGE_FORMAT              "Storage preparation"
 #define TR_EEPROMOVERFLOW              "EEPROM overflow"
-#define TR_RADIO_SETUP                 "הגדרות שלט ותצוגה"
+#define TR_RADIO_SETUP                 "הגדרות שלט ששששששששששששששששששששששש"
 #define TR_MENUTRAINER                 "טריינר"
 #define TR_MENUSPECIALFUNCS            "פונקציות לכל המודלים והשלט"
 #define TR_MENUVERSION                 "גירסא"
