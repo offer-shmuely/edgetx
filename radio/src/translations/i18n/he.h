@@ -558,7 +558,7 @@
 #define TR_THROTTLEREVERSE             TR("T-Reverse", "היפוך")
 #define TR_MINUTEBEEP                  TR("דקה", "הקראת דקות")
 #define TR_BEEPCOUNTDOWN               "ספירה לאחור"
-#define TR_PERSISTENT                  TR("Persist.", "מתמשך")
+#define TR_PERSISTENT                  TR("Persist.", "קבוע")
 #define TR_BACKLIGHT_LABEL             "תאורת רקע"
 #define TR_STATUS                      "סטטוס"
 #define TR_BLONBRIGHTNESS              "בהירות פעילה"
@@ -577,13 +577,13 @@
 #define TR_PWR_ON_DELAY                "השהיית הפעלה פעיל"
 #define TR_PWR_OFF_DELAY               "משך לחיצה לכיבוי השלט"
 #define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","כיבוי אוטומטי")
-#define TR_PWR_ON_OFF_HAPTIC           TR("Pwr ON/OFF Haptic","רטט בהדלקה/כיבוי")
+#define TR_PWR_ON_OFF_HAPTIC           TR("רטט הפ/כב","רטט בהדלקה/כיבוי")
 #define TR_THROTTLE_WARNING            TR("T-Warning", "התראת מצערת פתוחה")
 #define TR_CUSTOM_THROTTLE_WARNING     TR("Cust-Pos", "עריכת מיקום ידנית")
 #define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Pos. %", "מיקום %")
-#define TR_SWITCHWARNING               TR("S-Warning", "אזהרת מתגים")
+#define TR_SWITCHWARNING               TR("S-Warning", "אזהרת מיקום מפסקים")
 #define TR_POTWARNINGSTATE             "סליידרים וגלגלות"
-#define TR_POTWARNING                  TR("Pot warn.", "אזהרת פוטנציומטרים")
+#define TR_POTWARNING                  TR("Pot warn.", "אזהרת מיקום פוטנציומטרים")
 #define TR_TIMEZONE                    "אזור זמן"
 #define TR_ADJUST_RTC                  "Adjust RTC"
 #define TR_GPS                         "GPS"
