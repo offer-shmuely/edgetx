@@ -33,27 +33,27 @@
  */
 
 // Main menu
-#define TR_QM_MANAGE_MODELS             "Manage\nModels"
-#define TR_QM_MODEL_SETUP               "Model\nSetup"
-#define TR_QM_RADIO_SETUP               "Radio\nSetup"
-#define TR_QM_UI_SETUP                  "UI\nSetup"
-#define TR_QM_TOOLS                     "Tools"
-#define TR_QM_MODEL_SETTINGS            "Model\nSettings"
-#define TR_QM_RADIO_SETTINGS            "Radio\nSettings"
+#define TR_QM_MANAGE_MODELS             "ניהול\nמודלים"
+#define TR_QM_MODEL_SETUP               "הגדרת\nמודל"
+#define TR_QM_RADIO_SETUP               "הגדרת\nרדיו"
+#define TR_QM_UI_SETUP                  "הגדרת\nממשק"
+#define TR_QM_TOOLS                     "כלים"
+#define TR_QM_MODEL_SETTINGS            "הגדרות\nמודל"
+#define TR_QM_RADIO_SETTINGS            "הגדרות\nרדיו"
 #define TR_QM_FLIGHT_MODES              TR_SFC_AIR("Drive\nModes", "Flight\nModes")
-#define TR_QM_INPUTS                    "Inputs"
-#define TR_QM_MIXES                     "Mixes"
-#define TR_QM_OUTPUTS                   "Outputs"
-#define TR_QM_CURVES                    "Curves"
-#define TR_QM_GLOBAL_VARS               "Global\nVariables"
-#define TR_QM_LOGICAL_SW                "Logical\nSwitches"
-#define TR_QM_SPEC_FUNC                 "Special\nFunctions"
-#define TR_QM_CUSTOM_LUA                "Custom\nScripts"
-#define TR_QM_TELEM                     "Telemetry"
-#define TR_QM_GLOB_FUNC                 "Global\nFunctions"
+#define TR_QM_INPUTS                    "כניסות"
+#define TR_QM_MIXES                     "מיקסים"
+#define TR_QM_OUTPUTS                   "יציאות"
+#define TR_QM_CURVES                    "עקומות"
+#define TR_QM_GLOBAL_VARS               "משתנים\nגלובליים"
+#define TR_QM_LOGICAL_SW                "מתגים\nלוגיים"
+#define TR_QM_SPEC_FUNC                 "פונקציות\nמיוחדות"
+#define TR_QM_CUSTOM_LUA                "סקריפטים\nמותאמים"
+#define TR_QM_TELEM                     "טלמטריה"
+#define TR_QM_GLOB_FUNC                 "פונקציות\nגלובליות"
 #define TR_QM_TRAINER                   "מדריך"
 #define TR_QM_HARDWARE                  "חומרה"
-#define TR_QM_ABOUT                     "About\nEdgeTX"
+#define TR_QM_ABOUT                     "אודות\nEdgeTX"
 #define TR_QM_THEMES                    "ערכות נושא"
 #define TR_QM_TOP_BAR                   "בר עליון"
 #define TR_QM_SCREEN_1                  "מסך 1"
@@ -66,12 +66,12 @@
 #define TR_QM_SCREEN_8                  "מסך 8"
 #define TR_QM_SCREEN_9                  "מסך 9"
 #define TR_QM_SCREEN_10                 "מסך 10"
-#define TR_QM_ADD_SCREEN                "Add\nScreen"
-#define TR_QM_APPS                      "Apps"
+#define TR_QM_ADD_SCREEN                "הוסף\nמסך"
+#define TR_QM_APPS                      "יישומים"
 #define TR_QM_STORAGE                   "אחסון"
 #define TR_QM_RESET                     TR_SFC_AIR("Drive\nReset", "Flight\nReset")
-#define TR_QM_CHAN_MON                  "Channel\nMonitor"
-#define TR_QM_LS_MON                    "LS\nMonitor"
+#define TR_QM_CHAN_MON                  "מוניטור\nערוצים"
+#define TR_QM_LS_MON                    "מוניטור\nמתגים לוגיים"
 #define TR_QM_STATS                     "סטטיסטיקה"
 #define TR_QM_DEBUG                     "ניפוי שגיאות"
 #define TR_MAIN_MODEL_SETTINGS          "הגדרות מודל"
@@ -82,12 +82,12 @@
 #define TR_MONITOR_SWITCHES            "מסך מתגים לוגים"
 #define TR_MAIN_MENU_MODEL_SETTINGS     "הגדרות מודל"
 #define TR_MAIN_MENU_RADIO_SETTINGS     "הגדרות שלט"
-#define TR_MAIN_MENU_SCREEN_SETTINGS    "UI Setup"
+#define TR_MAIN_MENU_SCREEN_SETTINGS    "הגדרות ממשק"
 #define TR_MAIN_MENU_STATISTICS         "סטטיסטיקות"
 #define TR_MAIN_MENU_ABOUT_EDGETX       "מידע על EdgeTX"
 #define TR_MAIN_VIEW_X                  "מסך "
 #define TR_MAIN_MENU_THEMES             "ערכות נושא"
-#define TR_MAIN_MENU_APPS               "Apps"
+#define TR_MAIN_MENU_APPS               "יישומים"
 #define TR_MENUHELISETUP               "הגדרות מסוק"
 #define TR_MENUFLIGHTMODES               TR_SFC_AIR("DRIVE MODES", "מצבי טיסה")
 #define TR_MENUFLIGHTMODE                TR_SFC_AIR("DRIVE MODE", "מצב טיסה")
@@ -227,13 +227,13 @@
 #define TR_SF_RGBLEDS                  "RGB leds"
 
 #define TR_SOUND                       "הפעל סאונד"
-#define TR_PLAY_TRACK                  TR("Ply Trk", "Play Track")
-#define TR_PLAY_VALUE                  TR("Play Val","Play Value")
-#define TR_SF_HAPTIC                   "Haptic"
-#define TR_SF_PLAY_SCRIPT              TR("Lua", "Lua Script")
-#define TR_SF_BG_MUSIC                 "BgMusic"
-#define TR_SF_BG_MUSIC_PAUSE           "BgMusic ||"
-#define TR_SF_LOGS                     "SD Logs"
+#define TR_PLAY_TRACK                  TR("Ply Trk", "נגן קובץ קול")
+#define TR_PLAY_VALUE                  TR("Play Val","השמע ערך")
+#define TR_SF_HAPTIC                   "רטט"
+#define TR_SF_PLAY_SCRIPT              TR("Lua", "הפעל סקריפט Lua")
+#define TR_SF_BG_MUSIC                 "מוזיקת רקע"
+#define TR_SF_BG_MUSIC_PAUSE           "השהיית מוזיקת רקע"
+#define TR_SF_LOGS                     "לוגים לכרטיס SD"
 #define TR_ADJUST_GVAR                 "התאם"
 #define TR_SF_BACKLIGHT                "אור אחורי"
 #define TR_SF_VARIO                    "Vario"
@@ -244,14 +244,14 @@
 #define TR_SF_SCREENSHOT               "צילום מסך"
 #define TR_SF_RACING_MODE              "מצב תחרות"
 #define TR_SF_DISABLE_TOUCH            "ללא מסך מגע"
-#define TR_SF_DISABLE_KEYS             "No Keys"
-#define TR_SF_DISABLE_AUDIO_AMP        "Audio Amp Off"
+#define TR_SF_DISABLE_KEYS             "ללא מקשים"
+#define TR_SF_DISABLE_AUDIO_AMP        "מגבר שמע כבוי"
 #define TR_SF_SET_SCREEN               TR_BW_COL("Set Screen", "הגדרת מסך ראשי")
 #define TR_SF_PUSH_CUST_SWITCH         "Push CS"
 #define TR_SF_LCD_TO_VIDEO             "LCD to Video"
 
 #define TR_FSW_RESET_TELEM             TR("Telm", "טלמטריה")
-#define TR_FSW_RESET_TRIMS             "Trims"
+#define TR_FSW_RESET_TRIMS             "קיזוזים"
 #define TR_FSW_RESET_TIMERS_1          "שעון 1"
 #define TR_FSW_RESET_TIMERS_2          "שעון 2"
 #define TR_FSW_RESET_TIMERS_3          "שעון 3"
@@ -422,8 +422,8 @@
 #define TR_VCELLINDEX_11               "הפרש"
 #define TR_SUBTRIMMODES_1              CHAR_DELTA " (center only)"
 #define TR_SUBTRIMMODES_2              "= (symmetrical)"
-#define TR_TIMER_DIR_1                 TR("Remain", "Show Remain")
-#define TR_TIMER_DIR_2                 TR("Elaps.", "Show Elapsed")
+#define TR_TIMER_DIR_1                 TR("Remain", "הצג זמן שנותר")
+#define TR_TIMER_DIR_2                 TR("Elaps.", "הצג זמן שחלף")
 
 #define TR_FONT_SIZES_1                "STD"
 #define TR_FONT_SIZES_2                "BOLD"
@@ -465,9 +465,9 @@
 #define TR_TTRIM                       TR("T-Trim-Idle", "Trim idle only")
 #define TR_TTRIM_SW                    TR("T-Trim-Sw", "מתג קיזוז")
 #define TR_BEEPCTR                     TR("Ctr Beep", "ציפצוף במרכז")
-#define TR_PROTOCOL                    TR("Proto", "Protocol")
+#define TR_PROTOCOL                    TR("Proto", "פרוטוקול")
 #define TR_PPMFRAME                    "PPM frame"
-#define TR_REFRESHRATE                 TR("Refresh", "Refresh rate")
+#define TR_REFRESHRATE                 TR("Refresh", "קצב רענון")
 #define TR_WARN_BATTVOLTAGE           TR("Output is VBAT: ", "Warning: output level is VBAT: ")
 #define TR_WARN_5VOLTS                 "אזהרה : מתח נמוך מ 5 וולט"
 #define TR_MS                          "ms"
@@ -516,9 +516,9 @@
 #define TR_ANTENNA                     "אנטנה"
 #define TR_NO_INFORMATION              TR("No info", "אין מידע")
 #define TR_MULTPX                      "הגדר מצב מיקס"
-#define TR_DELAYDOWN                   TR("Delay dn", "עיקוב בירידה")
+#define TR_DELAYDOWN                   TR("Delay dn", "השהיית ירידה")
 #define TR_DELAYUP                     "עיקוב בעלייה"
-#define TR_SLOWDOWN                    TR("Slow dn", "האט ירידה")
+#define TR_SLOWDOWN                    TR("Slow dn", "האטת ירידה")
 #define TR_SLOWUP                      "האט עלייה"
 #define TR_CV                          "CV"
 #define TR_GV                          TR("G", "GV")
@@ -558,7 +558,7 @@
 #define TR_THROTTLEREVERSE             TR("T-Reverse", "היפוך")
 #define TR_MINUTEBEEP                  TR("דקה", "הקראת דקות")
 #define TR_BEEPCOUNTDOWN               "ספירה לאחור"
-#define TR_PERSISTENT                  TR("Persist.", "Persistent")
+#define TR_PERSISTENT                  TR("Persist.", "קבוע")
 #define TR_BACKLIGHT_LABEL             "תאורת רקע"
 #define TR_STATUS                      "סטטוס"
 #define TR_BLONBRIGHTNESS              "בהירות פעילה"
@@ -576,14 +576,14 @@
 #define TR_PLAY_HELLO                  "צליל אתחול"
 #define TR_PWR_ON_DELAY                "השהיית הפעלה פעיל"
 #define TR_PWR_OFF_DELAY               "משך לחיצה לכיבוי השלט"
-#define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","Power Auto Off")
-#define TR_PWR_ON_OFF_HAPTIC           TR("Pwr ON/OFF Haptic","Power ON/OFF Haptic")
+#define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","כיבוי אוטומטי")
+#define TR_PWR_ON_OFF_HAPTIC           TR("רטט הפ/כב","רטט בהדלקה/כיבוי")
 #define TR_THROTTLE_WARNING            TR("T-Warning", "התראת מצערת פתוחה")
 #define TR_CUSTOM_THROTTLE_WARNING     TR("Cust-Pos", "עריכת מיקום ידנית")
 #define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Pos. %", "מיקום %")
-#define TR_SWITCHWARNING               TR("S-Warning", "מיקום מתגים")
+#define TR_SWITCHWARNING               TR("S-Warning", "אזהרת מיקום מפסקים")
 #define TR_POTWARNINGSTATE             "סליידרים וגלגלות"
-#define TR_POTWARNING                  TR("Pot warn.", "Pot positions")
+#define TR_POTWARNING                  TR("Pot warn.", "אזהרת מיקום פוטנציומטרים")
 #define TR_TIMEZONE                    "אזור זמן"
 #define TR_ADJUST_RTC                  "Adjust RTC"
 #define TR_GPS                         "GPS"
@@ -691,7 +691,7 @@
 #define TR_BINDING_CH1_8_TELEM_OFF     "Ch1-8 Telem OFF"
 #define TR_BINDING_CH9_16_TELEM_ON     "Ch9-16 Telem ON"
 #define TR_BINDING_CH9_16_TELEM_OFF    "Ch9-16 Telem OFF"
-#define TR_PROTOCOL_INVALID            TR("Prot. invalid", "Protocol invalid")
+#define TR_PROTOCOL_INVALID            TR("Prot. invalid", "פרוטוקול לא תקין")
 #define TR_MODULE_STATUS               TR("Status", "גרסאת מולטי פרוטוקול")
 #define TR_MODULE_SYNC                 TR("Sync", "Proto Sync Status")
 #define TR_MULTI_SERVOFREQ             TR("Servo rate", "Servo update rate")
@@ -897,19 +897,19 @@
 #define TR_FLASH_FLIGHT_CONTROLLER_BY_EXTERNAL_MODULE_OTA "Flash FC by ext. OTA"
 #define TR_FLASH_FLIGHT_CONTROLLER_BY_INTERNAL_MODULE_OTA "Flash FC by int. OTA"
 #define TR_FLASH_BLUETOOTH_MODULE      TR("Flash BT module", "Flash Bluetooth module")
-#define TR_DEVICE_NO_RESPONSE          TR("Device not responding", "Device not responding")
+#define TR_DEVICE_NO_RESPONSE          TR("Device not responding", "התקן לא מגיב")
 #define TR_DEVICE_FILE_ERROR           TR("Device file prob.", "Device file prob.")
 #define TR_DEVICE_DATA_REFUSED         TR("Device data refused", "Device data refused")
 #define TR_DEVICE_WRONG_REQUEST        TR("Device access problem", "Device access problem")
 #define TR_DEVICE_FILE_REJECTED        TR("Device file refused", "Device file refused")
 #define TR_DEVICE_FILE_WRONG_SIG       TR("Device file sig.", "Device file sig.")
 #define TR_CURRENT_VERSION             TR("Curr Vers: ", "Current version: ")
-#define TR_FLASH_INTERNAL_MODULE       TR("Flash int. module", "Flash internal module")
+#define TR_FLASH_INTERNAL_MODULE       TR("Flash int. module", "צריבת מודול פנימי")
 #define TR_FLASH_INTERNAL_MULTI        TR("Flash Int. Multi", "Flash Internal Multi")
-#define TR_FLASH_EXTERNAL_MODULE       TR("Flash ext. module", "Flash external module")
+#define TR_FLASH_EXTERNAL_MODULE       TR("Flash ext. module", "צריבת מודול חיצוני")
 #define TR_FLASH_EXTERNAL_MULTI        TR("Flash Ext. Multi", "Flash External Multi")
 #define TR_FLASH_EXTERNAL_ELRS         TR("Flash Ext. ELRS", "Flash External ELRS")
-#define TR_FIRMWARE_UPDATE_ERROR       TR("FW update error", "Firmware update error")
+#define TR_FIRMWARE_UPDATE_ERROR       TR("FW update error", "שגיאת עדכון קושחה")
 #define TR_FIRMWARE_UPDATE_SUCCESS     "! הפלאש עבר בהצלחה"
 #define TR_WRITING                     "...ממתין"
 #define TR_INTERNALRF                  "מודול פנימי"
@@ -1378,7 +1378,7 @@
 #define TR_MID_BATT_COLOR         "מתח סוללה בינוני"
 #define TR_HIGH_BATT_COLOR        "מתח סוללה גבוה"
 
-#define TR_WIDGET_SIZE            "Widget size"
+#define TR_WIDGET_SIZE            "גודל ווידג׳ט"
 
 #define TR_DEL_DIR_NOT_EMPTY      "סיפריה חייב להיות ריקה לפני מחיקה"
 
