@@ -38,8 +38,8 @@
 #define TR_QM_RADIO_SETUP               "הגדרת\nרדיו"
 #define TR_QM_UI_SETUP                  "הגדרת\nממשק"
 #define TR_QM_TOOLS                     "כלים"
-#define TR_QM_MODEL_SETTINGS            "Model\nSettings"
-#define TR_QM_RADIO_SETTINGS            "Radio\nSettings"
+#define TR_QM_MODEL_SETTINGS            "הגדרות\nמודל"
+#define TR_QM_RADIO_SETTINGS            "הגדרות\nרדיו"
 #define TR_QM_FLIGHT_MODES              TR_SFC_AIR("Drive\nModes", "Flight\nModes")
 #define TR_QM_INPUTS                    "כניסות"
 #define TR_QM_MIXES                     "מיקסים"
@@ -53,7 +53,7 @@
 #define TR_QM_GLOB_FUNC                 "פונקציות\nגלובליות"
 #define TR_QM_TRAINER                   "מדריך"
 #define TR_QM_HARDWARE                  "חומרה"
-#define TR_QM_ABOUT                     "About\nEdgeTX"
+#define TR_QM_ABOUT                     "אודות\nEdgeTX"
 #define TR_QM_THEMES                    "ערכות נושא"
 #define TR_QM_TOP_BAR                   "בר עליון"
 #define TR_QM_SCREEN_1                  "מסך 1"
@@ -66,12 +66,12 @@
 #define TR_QM_SCREEN_8                  "מסך 8"
 #define TR_QM_SCREEN_9                  "מסך 9"
 #define TR_QM_SCREEN_10                 "מסך 10"
-#define TR_QM_ADD_SCREEN                "Add\nScreen"
+#define TR_QM_ADD_SCREEN                "הוסף\nמסך"
 #define TR_QM_APPS                      "יישומים"
 #define TR_QM_STORAGE                   "אחסון"
 #define TR_QM_RESET                     TR_SFC_AIR("Drive\nReset", "Flight\nReset")
 #define TR_QM_CHAN_MON                  "מוניטור\nערוצים"
-#define TR_QM_LS_MON                    "LS\nMonitor"
+#define TR_QM_LS_MON                    "מוניטור\nמתגים לוגיים"
 #define TR_QM_STATS                     "סטטיסטיקה"
 #define TR_QM_DEBUG                     "ניפוי שגיאות"
 #define TR_MAIN_MODEL_SETTINGS          "הגדרות מודל"
@@ -82,12 +82,12 @@
 #define TR_MONITOR_SWITCHES            "מסך מתגים לוגים"
 #define TR_MAIN_MENU_MODEL_SETTINGS     "הגדרות מודל"
 #define TR_MAIN_MENU_RADIO_SETTINGS     "הגדרות שלט"
-#define TR_MAIN_MENU_SCREEN_SETTINGS    "UI Setup"
+#define TR_MAIN_MENU_SCREEN_SETTINGS    "הגדרות ממשק"
 #define TR_MAIN_MENU_STATISTICS         "סטטיסטיקות"
 #define TR_MAIN_MENU_ABOUT_EDGETX       "מידע על EdgeTX"
 #define TR_MAIN_VIEW_X                  "מסך "
 #define TR_MAIN_MENU_THEMES             "ערכות נושא"
-#define TR_MAIN_MENU_APPS               "Apps"
+#define TR_MAIN_MENU_APPS               "יישומים"
 #define TR_MENUHELISETUP               "הגדרות מסוק"
 #define TR_MENUFLIGHTMODES               TR_SFC_AIR("DRIVE MODES", "מצבי טיסה")
 #define TR_MENUFLIGHTMODE                TR_SFC_AIR("DRIVE MODE", "מצב טיסה")
@@ -229,11 +229,11 @@
 #define TR_SOUND                       "הפעל סאונד"
 #define TR_PLAY_TRACK                  TR("Ply Trk", "נגן קובץ קול")
 #define TR_PLAY_VALUE                  TR("Play Val","השמע ערך")
-#define TR_SF_HAPTIC                   "Haptic"
+#define TR_SF_HAPTIC                   "רטט"
 #define TR_SF_PLAY_SCRIPT              TR("Lua", "הפעל סקריפט Lua")
-#define TR_SF_BG_MUSIC                 "BgMusic"
-#define TR_SF_BG_MUSIC_PAUSE           "BgMusic ||"
-#define TR_SF_LOGS                     "SD Logs"
+#define TR_SF_BG_MUSIC                 "מוזיקת רקע"
+#define TR_SF_BG_MUSIC_PAUSE           "השהיית מוזיקת רקע"
+#define TR_SF_LOGS                     "לוגים לכרטיס SD"
 #define TR_ADJUST_GVAR                 "התאם"
 #define TR_SF_BACKLIGHT                "אור אחורי"
 #define TR_SF_VARIO                    "Vario"
@@ -244,14 +244,14 @@
 #define TR_SF_SCREENSHOT               "צילום מסך"
 #define TR_SF_RACING_MODE              "מצב תחרות"
 #define TR_SF_DISABLE_TOUCH            "ללא מסך מגע"
-#define TR_SF_DISABLE_KEYS             "No Keys"
-#define TR_SF_DISABLE_AUDIO_AMP        "Audio Amp Off"
+#define TR_SF_DISABLE_KEYS             "ללא מקשים"
+#define TR_SF_DISABLE_AUDIO_AMP        "מגבר שמע כבוי"
 #define TR_SF_SET_SCREEN               TR_BW_COL("Set Screen", "הגדרת מסך ראשי")
 #define TR_SF_PUSH_CUST_SWITCH         "Push CS"
 #define TR_SF_LCD_TO_VIDEO             "LCD to Video"
 
 #define TR_FSW_RESET_TELEM             TR("Telm", "טלמטריה")
-#define TR_FSW_RESET_TRIMS             "Trims"
+#define TR_FSW_RESET_TRIMS             "קיזוזים"
 #define TR_FSW_RESET_TIMERS_1          "שעון 1"
 #define TR_FSW_RESET_TIMERS_2          "שעון 2"
 #define TR_FSW_RESET_TIMERS_3          "שעון 3"
